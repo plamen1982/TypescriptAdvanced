@@ -1,0 +1,5 @@
+"use strict";
+var someString = "some value for this string";
+someString = 'when assign new value to this string but should be string, wow!';
+//someString = 1; // if we try to assign other that string tsc will complain with this message as tooltip-> Type '1' is not assignable to type 'string'.
+//# sourceMappingURL=build.map
